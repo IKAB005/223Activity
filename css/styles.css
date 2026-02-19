@@ -7,7 +7,7 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #a0ffcf;
+    background-color: #ffffff;
     padding: 20px;
 }
 
@@ -17,11 +17,12 @@ body {
 }
 
 .card {
-    background: #6abcca;
+    background: #a5a5a5;
     margin: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
 
 }
 h1 {
@@ -44,10 +45,10 @@ ul {
 
 a {
     text-decoration: none;
-    color: #0077cc;
+    color: #ace996;
 }
 a:hover {
-    color: #005fa3
+    color: #a30000
 }
 
 table {
@@ -62,7 +63,7 @@ th, td {
 }
 
 th {
-    background-color: #0077cc;
+    background-color: #ace966;
     color: white;
 }
 
@@ -80,12 +81,21 @@ input, textarea {
 
 button {
     padding: 10px;
-    background-color: #0077cc;
+    background-color: #000000;
     color: white;
     border: none;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #005fa3;
+    background-color: #00a336;
+}
+
+.dark-mode {
+background-color:#222;
+color:white;
+}
+
+.hidden {
+display:none;
 }
