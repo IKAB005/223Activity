@@ -1,8 +1,9 @@
+import Card from "./Card";
 
 function About() {
-    return (
-      <section className="card">
-          <h2>About Me</h2>
+return (
+<Card title="About Me">
+<p>This is my personal profile.</p>
           <style
             dangerouslySetInnerHTML={{
               __html:
@@ -18,7 +19,7 @@ function About() {
             GitHub:
             <a href="https://github.com/IKAB005">https://github.com/IKAB005</a>
           </p>
-      </section>
-    )
-}
+          </Card>
+);
+};
 export default About;
